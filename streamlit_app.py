@@ -24,8 +24,8 @@ st.write("อัปโหลดไฟล์ PDF, DOCX, หรือ TXT เพ�
 
 uploaded_file = st.file_uploader(
     "เลือกไฟล์เอกสาร",
-    type=["pdf", "docx", "txt"],
-    help="รองรับไฟล์ .pdf, .docx, .txt"
+    type=["pdf", "docx", "txt", "md"],
+    help="รองรับไฟล์ .pdf, .docx, .txt, .md"
 )
 
 metadata_input = st.text_input(
