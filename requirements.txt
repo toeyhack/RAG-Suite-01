@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+chromadb
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+ollama
+pypdf
+python-docx
+itsdangerous
+python-multipart
+transformers
